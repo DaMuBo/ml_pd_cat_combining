@@ -22,7 +22,8 @@ for adjusting the threshold below the data should be generalized just change the
  * 'map': is mapping all unknown values to the defined generalisation
  * 'ignore' : is ignoring the unknown values and keeps the original value as output
  * 'unseen' : is creating a second generalisation "unknown" in which all new / unknown values are going to be transformed
-  ** cat_reducer.fit(df, unseen_data='map')
+ 
+* cat_reducer.fit(df, unseen_data='map')
   
   
 
